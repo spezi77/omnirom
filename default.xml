@@ -467,7 +467,7 @@
   <project path="bionic" name="KitKatPurity/platform_bionic" remote="github" revision="kitkat" />
   
   <!-- Linaro toolchains -->
-  <project path="prebuilt/linux-x86/toolchain/arm-linux-linaro-4.9" name="Evervolv/android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.9" remote="github" revision="kitkat" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-linaro-4.9" name="Evervolv/android_prebuilts_gcc_linux-x86_arm_arm-linux-linaro-4.9" remote="github" revision="kitkat" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="JustArchi/Linaro" remote="github" revision="4.8-androideabi" /> 
   <project path="art" name="android_art" remote="spz" revision="omni-4.4" />
 
