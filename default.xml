@@ -20,7 +20,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="android" name="android" remote="omnirom" revision="android-5.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.1" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.1" groups="pdk" />
@@ -516,12 +515,18 @@
   </project>
   <project path="device/htc/bravo" name="spezi77/android_device_htc_bravo" remote="github" revision="omni-5.1" />
   <project path="device/htc/qsd8k-common" name="spezi77/android_device_htc_qsd8k-common" remote="github" revision="lollipop" />
+  <project name="spezi77/android_kernel_htc_qsd8k" path="kernel/htc/qsd8k" remote="github" revision="lollipop" />
+  <project name="spezi77/android_hardware_qcom_audio-legacy" path="hardware/qcom/audio-legacy" remote="github" revision="lollipop" />
+  <project name="spezi77/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="github" revision="lollipop" />
+  <project name="spezi77/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="github" revision="lollipop" />
+  <project name="spezi77/android_hardware_qcom_gps-legacy" path="hardware/qcom/gps-legacy" remote="github" revision="lollipop" />
 
   <!-- Use my own vendor projects -->
   <project path="vendor/htc" name="spezi77/android_vendor_htc" remote="github" revision="lollipop" />
   <project path="vendor/omni" name="spezi77/android_vendor_omni" remote="github" revision="android-5.1" />
   
   <!-- Use my forked projects with added legacy code -->
+  <project path="android" name="spezi77/omnirom" remote="github" revision="android-5.1" />
   <project path="frameworks/av" name="spezi77/android_frameworks_av" remote="github" revision="omni-5.1-caf" groups="pdk" />
   <project path="system/netd" name="spezi77/android_system_netd" remote="github" revision="omni-5.1" groups="pdk" />
   <project path="frameworks/native" name="spezi77/android_frameworks_native" remote="github" revision="omni-5.1" groups="pdk" />
