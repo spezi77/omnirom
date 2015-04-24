@@ -337,7 +337,6 @@
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="omnirom" revision="android-5.1" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="omnirom" revision="android-5.1" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="omnirom" revision="android-5.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="omnirom" revision="android-5.1" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="omnirom" revision="android-5.1" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="omnirom" revision="android-5.1" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="omnirom" revision="android-5.1" />
@@ -531,5 +530,5 @@
   <project path="system/netd" name="spezi77/android_system_netd" remote="github" revision="omni-5.1" groups="pdk" />
   <project path="frameworks/native" name="spezi77/android_frameworks_native" remote="github" revision="omni-5.1" groups="pdk" />
   <project path="frameworks/opt/telephony" name="spezi77/android_frameworks_opt_telephony" remote="github" revision="omni-5.1" groups="pdk" />
-  
+  <project path="hardware/qcom/display" name="spezi77/android_hardware_qcom_display" remote="github" revision="android-5.1" />  
 </manifest>
